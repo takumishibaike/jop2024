@@ -8,7 +8,7 @@ d$organization_var = as.factor(d$organization_var)# 1=WWF, 2=ENV (Vietnam)
 
 ### Subgroup
 
-# Resource User (earlier version of the paper used the term "appropriators")
+# Resource Users (earlier version of the paper used the term "appropriators")
 appropriators = rbind(d[which(d$Q34=="A few times a week"),], d[which(d$Q34=="Everyday"),])
 
 # Preservationists

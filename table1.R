@@ -6,7 +6,7 @@ d = read.csv("clean_data.csv", header = T) # All
 
 ### Subgroup
 
-# Resource User (earlier version of the paper used the term "appropriators")
+# Resource Users (earlier version of the paper used the term "appropriators")
 appropriators = rbind(d[which(d$Q34=="A few times a week"),], d[which(d$Q34=="Everyday"),])
 
 # Preservationists

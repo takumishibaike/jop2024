@@ -8,7 +8,7 @@ d$organization_var = as.factor(d$organization_var)# 1=WWF, 2=ENV (Vietnam)
 
 ### Subgroup
 
-# Preservationists
+# Preservationists (when overlapping resource users are not removed)
 preservationists = d[which(d$Q28=="Very important"&d$Q30=="Very important"),] 
 
 ### Regression models
